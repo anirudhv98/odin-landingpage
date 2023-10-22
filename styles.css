@@ -141,7 +141,7 @@ body
     justify-content: center;
     align-items: center;
 }
-.quote, .button
+.quote
 {
     
     border : 2px solid red;
@@ -171,6 +171,50 @@ body
     font-weight: bolder;
 }
 
+.button 
+{
+    margin: 100px;
+    padding: 50px 25px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
 
-.information-header-text 
-{}
+.inner-button 
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+    color: white;
+}
+
+.inner-button button 
+{
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding:  2px 30px;
+    font-weight: bold;
+}
+
+.button .mini-heading 
+{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.button .mini-text 
+{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer 
+{
+    border: 2px solid red;
+    background-color: #1F2937;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
