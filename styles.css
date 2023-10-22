@@ -1,0 +1,176 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0;
+    padding: 0;
+}
+
+.header , .second-header 
+{
+    background-color: #1F2937;
+    padding-bottom: 100px;
+    
+}
+
+.header-inner
+{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+
+.header-links 
+{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 40%;
+    border: 2px solid red;
+}
+
+.header-links a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-text
+{
+    font-size: 24px;
+    color: #F9FAF8;
+    flex-basis: 50%;
+    border: 2px solid red;
+}
+
+.second-content
+{
+    margin: 0 100px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hero-main-text
+{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.hero-secondary-text
+{
+    font-size: 18px;
+    color : #E5E7EB;
+}
+.left 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.right
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.right img
+{
+    height: auto;
+    width: 70%;
+    flex: 0;
+}
+.left,.right 
+{
+    flex-basis: 50%;
+}
+
+.left button 
+{
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 120px;
+    color: white;
+    padding: 5px;
+}
+
+.content 
+{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-content
+{
+    border: 2px solid red;
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+.information-header-text
+{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.images 
+{
+    display: flex;
+}
+.images img 
+{
+    width: 250px;
+    height: auto;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.img-div 
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.quote, .button
+{
+    
+    border : 2px solid red;
+    padding: 100px 0;
+}
+.quote
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote-text 
+{
+    align-self: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin : 0 100px;
+}
+
+.by 
+{
+    align-self: flex-end;
+    margin : 0 100px;
+    font-weight: bolder;
+}
+
+
+.information-header-text 
+{}
