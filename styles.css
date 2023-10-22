@@ -4,8 +4,8 @@ body
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 0;
     padding: 0;
+    margin: 0;
 }
 
 .header , .second-header 
@@ -26,9 +26,8 @@ body
 .header-links 
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-basis: 40%;
-    border: 2px solid red;
 }
 
 .header-links a
@@ -43,13 +42,11 @@ body
     font-size: 24px;
     color: #F9FAF8;
     flex-basis: 50%;
-    border: 2px solid red;
 }
 
 .second-content
 {
     margin: 0 100px;
-    border: 2px solid red;
     display: flex;
     justify-content: space-between;
     
@@ -70,6 +67,7 @@ body
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap : 10px;
     
 }
 .right
@@ -91,7 +89,7 @@ body
 .left button 
 {
     background-color: #3882F6;
-    border-radius: 8px;
+    border-radius: 10px;
     width: 120px;
     color: white;
     padding: 5px;
@@ -99,7 +97,6 @@ body
 
 .content 
 {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,7 +104,6 @@ body
 
 .main-content
 {
-    border: 2px solid red;
     margin: 0 100px;
     display: flex;
     flex-direction: column;
@@ -124,6 +120,8 @@ body
 .images 
 {
     display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
 }
 .images img 
 {
@@ -143,8 +141,6 @@ body
 }
 .quote
 {
-    
-    border : 2px solid red;
     padding: 100px 0;
 }
 .quote
@@ -211,7 +207,6 @@ body
 
 .footer 
 {
-    border: 2px solid red;
     background-color: #1F2937;
     padding: 40px 80px;
     display: flex;
